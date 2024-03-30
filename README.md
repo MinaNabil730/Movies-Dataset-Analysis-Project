@@ -59,6 +59,9 @@ The dataset used in this project was provided by [Udacity](https://www.udacity.c
 ### Q1: What genres are used the most?
 - **Methodology**: I first split the rows containing multiple genres separated by "|" to have each genre on a single row. Then, I plotted the value counts of genres to identify the most frequently used genre.
 - **Findings**: The most frequently used genre in the dataset was "Drama".
+- 
+  ![image](https://github.com/MinaNabil730/Movies-Dataset-Analysis-Project/assets/109760458/cde45894-dc87-4464-aaf9-25e5bd30f6d0)
+
 
 ### Q2: Which director made the most movies?
 - **Methodology**: I used the `value_counts` function to determine which director made the most movies.
@@ -72,17 +75,38 @@ The dataset used in this project was provided by [Udacity](https://www.udacity.c
 - **Methodology**: I plotted the value counts of movie release years to determine the most common year for movie releases.
 - **Findings**: The most common year for releasing movies was 2014.
 
+  ![image](https://github.com/MinaNabil730/Movies-Dataset-Analysis-Project/assets/109760458/7043fcc1-ce17-4896-be5f-bcc2d0cdf57a)
+
+
 ### Q5: Does the year with the most movie releases have the highest revenue?
+
 - **Methodology**: I investigated if the year with the most movie releases (2014) had the highest revenue or if revenue depended on the number of movies released in a year.
 - **Findings**: The year with the highest revenue was 2009, not 2014. This suggests that revenue does not necessarily depend on the number of movies released.
+
+**Additional Observation:**
+
+After further analysis, we explored the revenue trends within 2014, the year with the highest number of movie releases. The bar plot below represents the average revenue for each month in 2014.
+
+![image](https://github.com/MinaNabil730/Movies-Dataset-Analysis-Project/assets/109760458/b6b39544-6393-446e-8163-62d753c665b3)
+
+
+From the bar plot, we observed that the months with the highest revenue in 2014 were November and December. This suggests that movies released in November and December were particularly successful. However, September did not show significant revenue compared to these months.
+
+
 
 ### Q6: Is there a relationship between movie budget and votes?
 - **Methodology**: I created a scatter plot to explore the relationship between movie votes and budgets. After removing outliers, I analyzed the scatter plot to identify any potential relationship.
 - **Findings**: There was no clear relationship between movie votes and budgets, indicating that success is not solely determined by the budget.
 
+  ![image](https://github.com/MinaNabil730/Movies-Dataset-Analysis-Project/assets/109760458/45c790c1-de7a-41b4-8aaa-f9c5ea48f172)
+
+
 ### Q7: Is there a relationship between movie budget and revenue?
 - **Methodology**: I created another scatter plot to investigate the relationship between movie budget and revenue. After removing outliers, I analyzed the scatter plot for any discernible patterns.
 - **Findings**: Similar to the previous question, there was no clear relationship between movie budget and revenue. This suggests that profitability is not solely determined by budget, but also depends on creativity and other factors.
+
+  ![image](https://github.com/MinaNabil730/Movies-Dataset-Analysis-Project/assets/109760458/7d983868-50c3-41c1-9151-ed9ccff8745f)
+
 
 ## Results/Findings Summary
 
