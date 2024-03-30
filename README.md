@@ -95,7 +95,7 @@ The dataset used in this project was provided by [Udacity](https://www.udacity.c
 - There was no clear relationship between movie budget and votes, indicating that success is not solely determined by the budget.
 - Similarly, there was no clear relationship between movie budget and revenue, suggesting that profitability is not solely determined by budget.
 
-## Recommendations {#recommendations}
+## (Recommendations) {#recommendations}
 
 Based on the findings of this analysis, the following recommendations are proposed for stakeholders in the movie industry:
 1. Focus on producing more movies in the Drama genre, as it is the most frequently used genre.
